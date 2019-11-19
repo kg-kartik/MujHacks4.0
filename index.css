@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+    height : 100%;
+    width : 100%;
+    margin : 0px;
+    padding : 0px;
+    overflow-x : hidden;
+  }
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    overflow-x : hidden;
+    margin : 0px;
+    padding : 0px;
+}
+.menu {
+    margin: 3%;
+    color : white;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.top-content {
+    padding : 10% 0;
+}
+.top-content .text {
+    color: white;
+    font-size : 300%;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+.top-content .description p {
+    opacity: 0.8;
+    text-align : center;
+}
+.top-content .top-link {
+    margin-top: 5%;
+}
+.btn-outline-info {
+    border-radius : 4px;
+    transition : all .5s;
+    font-size: 50%;
+    font-weight : 600;
+    display : inline-block;
+    padding : 0 5%;
+    margin-left : 35%;
+    line-height: 300%;
+    border : 1 px black;
+    color : white;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-us-container {
+    background-color : #faf7f7;
+}
+.about-us-box-text {
+    padding : 5% 10%;
+    text-align: left;
+    color :  #282B28;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+.about-us-box-text h3 {
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size : 200%;
+    font-family:  5000;
+}
+hr {
+    border : 1px solid black;
+    width : 35%;
+}
+.about-us-box-text .medium-paragraph {
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.sponsors-container {
+    text-align : center;
+}
+.sponsors-text h1 {
+    margin : 3%;
+}
+ .sponsors-box-img img {
+     margin-bottom : 4%;
+ }
+.footer-container {
+    background-color: black;
+    text-align : center;
+}
+i {
+    size: 2vh;
+    color : white;
+    font-family: bold;
+    padding : 3% 3%;
+    margin-left : 5%;
+}
+i:hover {
+    color : #818181;
+}
+#footer {
+    color : white;
+    letter-spacing: 2px;
+    margin : 2%;
+    font-family : 'Montserrat','sans-serif';
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>MUJHacks 4.0</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Bootstrap css file-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap" >
+  <link rel="stylesheet" type ="text/css" href="animate.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/media-queries.css">
+
+  <!-- Javascript -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.js"></script>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home </a>
+        <a class="smoothScroll" href="#about" >About Us</a>
+        <a class="smoothScroll" href="#sponsors">Sponsors</a>
+        <a class="smoothScroll" href="#footer">Contact</a>
+    </div>
+<span class= "menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    <div class="top-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text">
+                        <div class="description wow fadeInLeftBig">
+                            <p>
+                                Lets work on an idea that can change the world
+                            </p>
+                        </div>
+                        <div class="top-link wow fadeInUp">
+                            <a href="#about"><button type="button" class="btn btn-outline-info btn-lg">About</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+    </div>
+    
+    <!-- About us -->
+<div class="about-us-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 about-us-box wow fadeInUp">
+                    <div class="about-us-box-text">
+                        <h3 id="about">MUJHacks 4.0</h3>
+                        <hr>
+                        <p class="medium-paragraph">
+                            MUJHacks is Jaipur’s largest 12-hour student Hackathon, organised by Manipal University Jaipur ACM Student Chapter We believe hackers have the power to change the world – and find solutions to the biggest challenges in our time. 
+                        </p>
+                        <p>
+                            But to make this happen, we need to stand together. Our mission is to organise a series of hackathons to empower the hacker community of Rajasthan. So come one, come all to experience hacking at it’s finest. Register now to be a part of MUJHacks 2.0, and be there to hack your way to top.
+                        </p>
+                        <br> <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<!-- Sponsors Container-->
+    <div class="sponsors-container">
+            <div class="container">
+                <div class="row">            
+                  <div class="col-lg-12 sponsors-text wow fadeInLeft">
+                        <h1 id ="sponsors"> Our Sponsors</h1>
+                  </div>
+                </div>
+                <div class = "row">
+                    <div class="col-lg-12 about-us-box wow fadeInUp">
+                        <div class="sponsors-box-img">
+                            <img src="bg-img.jpg" alt="about" data-at2x="assets/img/about/1.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- Footer Container-->
+  <div class="footer-container">
+      <div class="container">
+           <div class= "row">
+                <div class= "col-12 social-media-icons">
+                        <a href="https://www.facebook.com/ACM.MUJ/"><i class="fa fa-facebook fa-3x"></i></a>
+                        <a href="https://www.instagram.com/muj_acm/"><i class="fa fa-instagram fa-3x"></i></a>
+                        <a href="https://github.com/MUJ-ACM-SCHAP"><i class="fa fa-github fa-3x"></i></a>
+                </div>
+            </div>
+                <div class = "row">
+                    <div class = "col-lg-12 footer-note">
+                        <p id ="footer">  &copy MUJ ACM CHAPTER</p>
+                    </div>
+                </div>
+        </div>
+  </div>
+    
+    <script>
+        new WOW().init();
+        function openNav() {
+         document.getElementById("mySidenav").style.width = "250px";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        
+    </script>
+</body>
