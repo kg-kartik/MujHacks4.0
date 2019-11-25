@@ -1,1 +1,1 @@
-# MujHacks4.0
+A demo website for MUJHacks4.0
